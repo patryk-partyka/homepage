@@ -1,69 +1,82 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Strona Główna</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-    <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka HTML</a>
-            <a href="moje-pasje.html">Moje pasje</a>
-        </nav>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation__link" href="moje-pasje.html">Moje pasje</a>
+      </nav>
     </header>
 
     <main>
-        <header id="top">
-            <h1>Patryk Partyka - Strona domowa robiona w ramach WTF</h1>
-        </header>
+      <header id="top">
+        <h1 class="main-heading main-heading--js">Patryk Partyka - Strona domowa robiona w ramach WTF</h1>
+      </header>
 
-        <section>
-            <h2>Kim jestem?</h2>
-            <img src="korsan-header.jpg" alt="Maciek Korsan">
-            <p>Hej! Na co dzień uczę wspaniałych ludzi <em>tajnej sztuki</em> <i>frontendu</i> i pracuję w firmie o
-                ciężko zapisywalnej nazwie : EYEDEA. Prowadzę szkolenie <a href="http://cotenfrontend.pl">WTF: Co ten frontend</a>
-                <br>Poza tym bardzo<b>lubię robić zdjęcia i latać dronem.</b> Witam Cię na mojej stronie domowej, mam
-                nadzieję, że znajdziesz tu trochę przydatnych rzeczy. <a href="#notatki">Przejdź do notatek</a></p>
-        </section>
+      <section>
+        <h2>Kim jestem?</h2>
+        <img src="korsan-header.jpg" height="300px;" alt="Maciek Korsan" />
+        <p>
+          Hej! Na co dzień uczę wspaniałych ludzi <em>tajnej sztuki</em>
+          <i>frontendu</i> i pracuję w firmie o ciężko zapisywalnej nazwie :
+          EYEDEA. Prowadzę szkolenie
+          <a href="http://cotenfrontend.pl">WTF: Co ten frontend</a> <br />Poza
+          tym bardzo <b>lubię robić zdjęcia i latać dronem.</b> Witam Cię na
+          mojej stronie domowej, mam nadzieję, że znajdziesz tu trochę
+          przydatnych rzeczy. <a href="#notatki">Przejdź do notatek</a>
+        </p>
+      </section>
 
-        <section id="notatki">
-            <h2 class="hotpink-header">Notatki z WTF: Co ten frontend</h2>
+      <section id="notatki">
+        <h2 class="hotpink-header">Notatki z WTF: Co ten frontend</h2>
 
-            <article>
-                <h3 class="hotpink-header">Jak stworzyć prawidłowego HTML-a?</h3>
-                <p><strong>Tworzenie zgodnego ze standardami HTML-a to sztuka</strong>, 
-                    którą do perfekcji opanowało niewielu.<br>Jeśli chcesz stać się częścią tej grupy, 
-                    musisz wykazać się otwartą głową i dużą ilością wolnego czasu…</p>
-            </article>
+        <article class="week-summary week-summary--special">
+          <h3 class="week-summary__title">Jak stworzyć prawidłowego HTML-a?</h3>
+          <p class="week-summary__description">
+            <strong>Tworzenie zgodnego ze standardami HTML-a to sztuka</strong>,
+            którą do perfekcji opanowało niewielu.<br />Jeśli chcesz stać się
+            częścią tej grupy, musisz wykazać się otwartą głową i dużą ilością
+            wolnego czasu…
+          </p>
+        </article>
 
-            <article>
-                <h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-                <p>Na początku myślałem,że całe szkolenie nagram w 2 tygonie (o ja naiwny!). Samo planowanie rzeczy
-                    zajęło dużo więcej!<br> Na szczęście dzięki wsparciu bliskich i sporej motywacji udało mi się wytworzyć
-                    schemat nagrywania, który każdego dnia przybliża mnie do skończenia pracy.</p>
-            </article>
+        <article class="week-summary">
+          <h3 class="week-summary__title">Czy nagrywanie szkolenia to prosta sprawa?</h3>
+          <p class="week-summary__description">
+            Na początku myślałem,że całe szkolenie nagram w 2 tygonie (o ja
+            naiwny!). Samo planowanie rzeczy zajęło dużo więcej!<br />
+            Na szczęście dzięki wsparciu bliskich i sporej motywacji udało mi
+            się wytworzyć schemat nagrywania, który każdego dnia przybliża mnie
+            do skończenia pracy.
+          </p>
+        </article>
 
-            <article>
-                <h3>Czego się nauczyłem?</h3>
-                <p>Nauczyłem się dziś ciekawych devtools.<br>Lekcje minęły dosyć szybko.<br>Zadanie domowe nie stanowiło
-                    problemu.</p>
-            </article>
-
-        </section>
+        <article class="week-summary">
+          <h3 class="week-summary__title">Czego się nauczyłem?</h3>
+          <p class="week-summary__description">
+            Nauczyłem się dziś ciekawych devtools.<br />Lekcje minęły dosyć
+            szybko.<br />Zadanie domowe nie stanowiło problemu.
+          </p>
+        </article>
+      </section>
     </main>
 
-    <footer id="background-footer">
-        Strona domowa Patryka Partyki, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend. 
-        <br><a href="#top">Wróć na górę strony</a>
+    <footer>
+      Strona domowa Patryka Partyki, wszystkie treści są efektem tworzenia
+      szkolenia WTF: Co ten frontend.
+      <br /><a href="#top">Wróć na górę strony</a>
     </footer>
 
     <script src="main.js"></script>
-
-</body>
-
+  </body>
 </html>
