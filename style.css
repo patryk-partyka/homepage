@@ -1,22 +1,3 @@
-.main-heading{
-  color: #09629e;
-}
-
-
-h2 {
-  color: #1460aa;
-}
-
-.hotpink-header {
-  color: hotpink;
-}
-
-#top {
-  background: #d1c6c6;
-  border-radius: 8px;
-  text-align: center;
-}
-
 a {
   color: #6e002a;
 }
@@ -26,6 +7,37 @@ footer {
   text-align: center;
   border-radius: 8px;
   margin: 10px;
+}
+
+h2 {
+  color: #1460aa;
+}
+
+.hotpink-header {
+  color: hotpink;
+}
+
+.introducing__heading{
+  border: #6e002a solid;
+  border-radius: 8px;
+  background: #b3eb31;
+  text-align: center;
+  padding: 2px;
+  width: 1000px;
+  margin: auto;
+}
+
+.introducing__paragraph{
+  display: inline-block;
+}
+
+.introducing__picture{
+  width: 300px;
+  margin: 10px;
+ }
+
+.main-heading{
+  color: #09629e;
 }
 
 .navigation{
@@ -43,6 +55,12 @@ footer {
 .navigation__link--homepage{
   background: yellow;
   color: #000;
+}
+
+#top {
+  background: #d1c6c6;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .week-summary{
