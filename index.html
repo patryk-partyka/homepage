@@ -18,27 +18,27 @@
       </nav>
     </header>
 
-    <main>
-      <header id="top">
-        <h1 class="main-heading main-heading--js">Patryk Partyka - Strona domowa robiona w ramach WTF</h1>
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="main__heading main__heading--js">Patryk Partyka - Strona domowa robiona w ramach WTF</h1>
       </header>
 
-      <section>
-        <h2 class="introducing__heading">Kim jestem?</h2>
-        <img class="introducing__picture" src="korsan-header.jpg"  alt="Maciek Korsan" />
-        <p class="introducing__paragraph">
+      <section class="about">
+        <h2 class="about__heading">Kim jestem?</h2>
+        <img class="about__picture" src="korsan-header.jpg"  alt="Maciek Korsan" />
+        <p class="about__description">
           Hej! Na co dzień uczę wspaniałych ludzi <em>tajnej sztuki</em>
           <i>frontendu</i> i pracuję w firmie o ciężko zapisywalnej nazwie :
           EYEDEA. Prowadzę szkolenie
-          <a href="http://cotenfrontend.pl">WTF: Co ten frontend</a> <br />Poza
+          <a class="about__link" href="http://cotenfrontend.pl">WTF</a> <br />Poza
           tym bardzo <b>lubię robić zdjęcia i latać dronem.</b> Witam Cię na
           mojej stronie domowej, mam nadzieję, że znajdziesz tu trochę
-          przydatnych rzeczy. <a href="#notatki">Przejdź do notatek</a>
+          przydatnych rzeczy. <a class="about__link" href="#notatki">Przejdź do notatek</a>
         </p>
       </section>
 
-      <section id="notatki">
-        <h2 class="hotpink-header">Notatki z WTF: Co ten frontend</h2>
+      <section class="notes" id="notatki">
+        <h2 class="notes__heading">Notatki z WTF: Co ten frontend</h2>
 
         <article class="week-summary week-summary--special">
           <h3 class="week-summary__title">Jak stworzyć prawidłowego HTML-a?</h3>
@@ -68,13 +68,19 @@
             szybko.<br />Zadanie domowe nie stanowiło problemu.
           </p>
         </article>
+
+        <article class="week-summary week-summary--js">
+          <h3 class="week-summary__title"></h3>
+          <p class="week-summary__description"></p>
+        </article>
+
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       Strona domowa Patryka Partyki, wszystkie treści są efektem tworzenia
       szkolenia WTF: Co ten frontend.
-      <br /><a href="#top">Wróć na górę strony</a>
+      <br /><a class=footer__link href="#top">Wróć na górę strony</a>
     </footer>
 
     <script src="main.js"></script>

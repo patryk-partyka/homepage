@@ -1,23 +1,4 @@
-a {
-  color: #6e002a;
-}
-
-footer {
-  background: #00c3ff;
-  text-align: center;
-  border-radius: 8px;
-  margin: 10px;
-}
-
-h2 {
-  color: #1460aa;
-}
-
-.hotpink-header {
-  color: hotpink;
-}
-
-.introducing__heading{
+.about__heading {
   border: #6e002a solid;
   border-radius: 8px;
   background: #b3eb31;
@@ -27,35 +8,68 @@ h2 {
   margin: auto;
 }
 
-.introducing__paragraph{
-  display: inline-block;
+.about__link {
+  color: #92140c;
 }
 
-.introducing__picture{
+.about__picture {
   width: 300px;
   margin: 10px;
  }
 
-.main-heading{
+a {
+  color: #6e002a;
+}
+
+.footer {
+  background: #00c3ff;
+  text-align: center;
+  border-radius: 8px;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.footer__link {
+  color: yellow;
+}
+
+h2 {
+  color: #1460aa;
+}
+
+.main__heading {
   color: #09629e;
 }
 
-.navigation{
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.navigation {
   background:#00b30fe5;
   padding: 16px;
   border-radius: 8px;
 }
 
-.navigation__link{
+.navigation__link {
   color:#fff;
   display: inline-block;
   margin-right: 20px;
 }
 
-.navigation__link--homepage{
+.navigation__link--homepage {
   background: yellow;
   color: #000;
 }
+.notes {
+
+}
+
+.notes__heading {
+  color: hotpink;
+}
+
 
 #top {
   background: #d1c6c6;
@@ -63,20 +77,20 @@ h2 {
   text-align: center;
 }
 
-.week-summary{
+.week-summary {
   padding: 16px;
   border: 5px rgb(110, 5, 110) solid;
   margin: 5px;
 }
 
-.week-summary__title{
+.week-summary__title {
   color: #21a179;
 }
 
-.week-summary__description{
+.week-summary__description {
   color: #92140c;
 }
 
-.week-summary--special{
+.week-summary--special {
   border: 5px #1460aa solid;
 }
